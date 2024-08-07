@@ -15,28 +15,26 @@
     }
 
     .a {
-      display: flex;
       flex-direction: row-reverse;
 
 
     }
 
     .b {
-      width: 100%;
+      width:250px;
       display: inline-block;
-      gap: 5px;
+      gap: 15px; 
     }
-
-
-    .nani {
+.nani {
       text-align: center;
       text-align-last: center;
 
     }
 
-    @media screen and (max-width:500px) {
-      .b {
-        background-color: rgb(166, 151, 179);
+    @media screen and (min-width:375px) {
+      .a{
+        display: grid;
+        grid-template-columns: repeat(4,300px);
 
       }
     }
@@ -46,14 +44,14 @@
 <body>
   <div class="a">
     <div class="b">
-      <img src="https://www.w3schools.com/w3images/sandwich.jpg" width="300px" height="400px">
+      <img src="https://www.w3schools.com/w3images/sandwich.jpg" width="280px" height="400px">
       <div class="nani">
         <h3>The Perfect Sandwich, A Real NYC Classic</h3>
         <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
       </div>
     </div>
     <div class="b">
-      <img src="https://www.w3schools.com/w3images/steak.jpg" width="300px" height="400px">
+      <img src="https://www.w3schools.com/w3images/steak.jpg" width="280px" height="400px">
       <div class="nani">
         <h3>The Perfect Sandwich, A Real NYC Classic
         </h3>
@@ -62,14 +60,14 @@
       </div>
     </div>
     <div class="b">
-      <img src="https://www.w3schools.com/w3images/cherries.jpg" width="300px" height="400px">
+      <img src="https://www.w3schools.com/w3images/cherries.jpg" width="280px" height="400px">
       <div class="nani">
         <h3>The Perfect Sandwich, A Real NYC Classic</h3>
         <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
       </div>
     </div>
     <div class="b">
-      <img src="https://www.w3schools.com/w3images/wine.jpg" width="300px" height="400px">
+      <img src="https://www.w3schools.com/w3images/wine.jpg" width="280px" height="400px">
       <div class="nani">
         <h3>The Perfect Sandwich, A Real NYC Classic</h3>
         <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
